@@ -4,10 +4,6 @@ from PyQt5.QTWidgets import (QApplication, QWidget, QHBoxLayout, QVBoxLayout,Gro
 from second_win import *
 from final_win import *
 class MainWin(QWidget):
-    def set_appear(self):
-        self.setWindowTitle(txt_title)
-        self.resize(win_width, win_height)
-        self.move(win_x, win_y)
     def __init__(self):
         super().__init__()
         self.set_appear()
@@ -26,8 +22,6 @@ class MainWin(QWidget):
         self.layout.addWidget(self.hello_txt)
         self.layout.addWidget(self.insctruction)
         self.layout.addWidget(self.button)
-    def connects(self):
-        pass
     def next_click(self):
         self.hide()
     def next_click(self):
