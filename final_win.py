@@ -4,7 +4,6 @@ QApplication, QWidget,
 QHBoxLayout, QVBoxLayout, QGridLayout,
 QGroupBox, QRadioButton,
 QPushButton, QLabel, QListWidget, QLineEdit)
-
 from instr import *
 
 class FinalWin(QWidget):
@@ -13,7 +12,7 @@ class FinalWin(QWidget):
         self.initUI()
         self.set_appear()
         self.show()
-
+        
     def initUI(self):
         self.workh_text = QLabel(txt_workheart)
         self.index_text = QLabel(txt_index)
