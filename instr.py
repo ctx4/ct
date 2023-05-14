@@ -26,8 +26,9 @@ txt_hinttest3 = '0'
 txt_starttest1 = 'Начать первый тест'
 txt_starttest2 = 'Начать делать приседания'
 txt_starttest3 = 'Начать финальный тест'
+txt_timer = ""
 
-txt_age = ''
-txt_finalwin = ''
-txt_index = ''
-txt_workheart = ''
+txt_age = 'Полных лет:'
+txt_finalwin = 'Результаты'
+txt_index = 'Индекс Руфье:'
+txt_workheart = 'Работоспособность сердца:'
